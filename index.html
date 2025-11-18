@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Asish Acharya — Hari Oem</title>
+  <meta name="description" content="Asish Acharya — teacher, TOT trainer, Jeevan Vigyan projects, mobile phone repair, spiritual & practical training.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #FFD95A; /* soft yellow background */
+      --text: #111;
+      --muted: #555;
+      --accent1: #D9534F; /* red */
+      --accent2: #F0AD4E; /* orange */
+      --accent3: #5BC0EB; /* blue */
+      --accent4: #3CB371; /* green */
+      --accent5: #8A2BE2; /* purple */
+      --card: rgba(255,255,255,0.8);
+      --glass: rgba(255,255,255,0.6);
+      --max-width: 960px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background: linear-gradient(135deg,
+  #FFF7B0,
+  #FFD95A,
+  #FFC837,
+  #FFB347,
+  #FF9A8B,
+  #FF6F61,
+  #FF5E62,
+  #FF7EB3,
+  #C779D0,
+  #9B59B6,
+  #8A2BE2,
+  #5BC0EB,
+  #3CB371,
+  #A8E6CF,
+  #F9F586,
+  #FFEEAD
+);color:var(--text);-webkit-font-smoothing:antialiased;
+      line-height:1.45;padding:24px;display:flex;justify-content:center;
+    }
+    .wrap{width:100%;max-width:var(--max-width)}
+
+    header{display:flex;gap:20px;align-items:center;margin-bottom:18px}
+    .avatar{width:110px;height:110px;border-radius:14px;overflow:hidden;flex:0 0 110px;box-shadow:0 6px 20px rgba(0,0,0,0.08)}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    .hero h1{margin:0;font-size:28px;font-weight:800;font-style:italic}
+    .hero p{margin:6px 0;color:var(--muted)}
+
+    nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .pill{background:var(--glass);padding:8px 12px;border-radius:999px;font-weight:600}
+
+    main{display:grid;grid-template-columns:1fr;gap:16px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.04)}
+
+    h2{margin-top:0;margin-bottom:8px;font-weight:700;font-style:italic}
+    .lead{font-weight:600}
+
+    /* colors for sections (five different colors) */
+    .cv h2{color:var(--accent1)}
+    .about h2{color:var(--accent2)}
+    .services h2{color:var(--accent3)}
+    .values h2{color:var(--accent4)}
+    .contact h2{color:var(--accent5)}
+
+    ul.values-list{padding-left:18px;margin:8px 0}
+    ul.values-list li{margin:6px 0}
+
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    footer{margin-top:10px;text-align:center;color:var(--muted);font-size:14px}
+
+    .cta{display:inline-block;padding:10px 16px;border-radius:8px;font-weight:700;text-decoration:none}
+    .primary{background:var(--accent3);color:white}
+
+    /* responsive */
+    @media (max-width:720px){.grid-2{grid-template-columns:1fr}.hero h1{font-size:22px}.avatar{width:88px;height:88px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar"><img src="image.png" alt="Asish Acharya"></div>
+      <div class="hero">
+        <h1>Asish Acharya — Hari Oem</h1>
+        <p class="lead">Namaste 🙏 — Level up your skills & business with spiritual practice, practical training and technology.</p>
+        <nav>
+          <span class="pill">Teacher • TOT • Jeevan Vigyan</span>
+          <span class="pill">Mobile Phone Repair</span>
+          <span class="pill">Spiritual Strategy</span>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="card about">
+        <h2>About Me</h2>
+        <p>Asish Acharya has spent 7+ years empowering Nepali learners to convert spiritual practice and tourism into real opportunity. I teach practical yoga, meditation, leadership and technology (AI + hands-on projects).</p>
+        <div class="grid-2">
+          <div>
+            <h3>Contact</h3>
+            <p>Tulsipur 07, Dang<br>
+            <a href="mailto:asishacharya122@gmail.com">asishacharya122@gmail.com</a></p>
+          </div>
+          <div>
+            <h3>Quick facts</h3>
+            <ul>
+              <li>7+ years teaching experience</li>
+              <li>Jeevan Vigyan & chakra work</li>
+              <li>Mobile phone repair & practical tech</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card services">
+        <h2>Services</h2>
+        <p>Transform your future: combine spiritual practice with practical skills and technology to create impact, income and better health — physical, mental, emotional, social, pranic and spiritual.</p>
+        <ul>
+          <li>Personalized learning paths (yoga, meditation, leadership)</li>
+          <li>Corporate team training & spiritual strategy</li>
+          <li>Hands-on AI projects and business process automation</li>
+          <li>Mobile repair workshops & jivan vigyan projects</li>
+          <li>Consultation, ongoing support & certification</li>
+        </ul>
+        <p><a class="cta primary" href="mailto:asishacharya122@gmail.com?subject=Training%20Inquiry">Schedule a call — Email me</a></p>
+      </section>
+
+      <section class="card values">
+        <h2>Core Values</h2>
+        <ul class="values-list">
+          <li><strong>Truthfulness:</strong> Truth-filled thought, speech & action.</li>
+          <li><strong>Transparent:</strong> Clear, honest communication.</li>
+          <li><strong>Truth-Driven:</strong> Facts and the quest for the Supreme Truth.</li>
+          <li><strong>Self-study, Forgiveness, Welfare:</strong> Continuous growth and service.</li>
+          <li><strong>Collaborative & Growth-oriented:</strong> Teamwork and continuous learning.</li>
+          <li><strong>Unpretentious & Audacious:</strong> Genuine, bold pursuit of goals.</li>
+        </ul>
+      </section>
+
+      <section class="card cv">
+        <h2>Key Achievements</h2>
+        <p>Participant in Jeevan Yoga prayogshala; completed Virat Chakra Vigyan and Bodh Laya TOT training. Trained in Aishwarya Vigyan for leadership & recognition.</p>
+        <p>Ongoing: teaching, workshops and community projects that combine spiritual practice and practical skills.</p>
+      </section>
+
+      <section class="card contact">
+        <h2>Note to family & customers</h2>
+        <p>Thank you for trusting me with your learning. Each class I create has one purpose: to help you find inner peace, outer prosperity, and practical skills you can use immediately. Honest guidance, practical tools, and support — together we turn effort into opportunity.</p>
+        <p><strong>Ready to take the next step?</strong> <a class="cta" href="mailto:asishacharya122@gmail.com?subject=Interested%20in%20Training">Schedule a call</a></p>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Asish Acharya — All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
